@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="https://uppub.tanikawa.com/favicon.ico" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>谷川集团</title>
+  <link rel="stylesheet" type="text/css" href="/font/PublicSans.css" />
+  <link rel="stylesheet" type="text/css" href="/loader.css" />
+</head>
+
+<body>
+  <div id="app">
+    <div id="loading-bg">
+      <div class="loading-logo">
+        <svg width="62" height="60" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <path
+              d="M22.7553191,0 L20.776,11.08 L20.775,11.086 L18.6289763,23.1126406 C18.4901448,23.8902691 17.8138446,24.4565217 17.0239203,24.4565217 L9.037725,24.4565217 C8.13726074,24.4565217 7.40729022,23.7265512 7.40729022,22.826087 C7.40729022,22.7300079 7.41578288,22.6341169 7.43266905,22.5395333 L9.477,11.086 L1.63043478,11.0869565 C0.729970517,11.0869565 -5.55858747e-16,10.356986 0,9.45652174 L0,1.63043478 C-1.10275068e-16,0.729970517 0.729970517,1.65412602e-16 1.63043478,0 L22.7553191,0 Z"
+              id="path-1"></path>
+          </defs>
+          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g transform="translate(-22.000000, -136.000000)">
+              <g transform="translate(0.000000, 136.000000)">
+                <g transform="translate(22.000000, 0.000000)">
+                  <g transform="translate(0.000000, 5.543478)">
+                    <mask id="mask-2" fill="white">
+                      <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use fill="#1F6CDD" xlink:href="#path-1"></use>
+                    <rect fill="#000000" mask="url(#mask-2)" x="54.7446809" y="-44.0217391" width="17.1489362"
+                      height="13.0434783"></rect>
+                    <path
+                      d="M11.7074468,0 L22.7553191,0 L22.7553191,8.9673913 L13.3378816,8.9673913 C12.4374173,8.9673913 11.7074468,8.23742079 11.7074468,7.33695652 L11.7074468,0 L11.7074468,0 Z"
+                      fill="#1751D4" mask="url(#mask-2)"></path>
+                  </g>
+                  <rect fill="#2CBDDC" x="15.1702128" y="0" width="15.8297872" height="11.0869565" rx="1.63043478">
+                  </rect>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div class=" loading">
+        <div class="effect-1 effects"></div>
+        <div class="effect-2 effects"></div>
+        <div class="effect-3 effects"></div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+  <script src="https://uppub.tanikawa.com/NIM_Web_SDK/v9.19.10/NIM_Web_SDK.js"></script>
+  <script>
+    const loaderColor = localStorage.getItem('vuexy-initial-loader-bg') || '#FFFFFF'
+    const primaryColor = localStorage.getItem('vuexy-initial-loader-color') || '#417AF6'
+
+    if (loaderColor)
+      document.documentElement.style.setProperty('--initial-loader-bg', loaderColor)
+
+    if (primaryColor)
+      document.documentElement.style.setProperty('--initial-loader-color', primaryColor)
+  </script>
+</body>
+
+</html>

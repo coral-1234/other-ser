@@ -1,0 +1,3 @@
+[submodule "common-package"]
+	path = common-package
+	url = ssh://git@gitlab.tanikawa.com:30327/tanikawa-front/vuexy/vuexy-common-package.git

@@ -1,0 +1,12 @@
+{
+  "*.{js,jsx,ts,tsx}": [
+    "eslint --cache --fix"
+  ],
+  "*.vue": [
+    "eslint --cache --fix",
+    "stylelint --fix --allow-empty-input"
+  ],
+  "*.{css,scss,html}": [
+    "stylelint --fix --allow-empty-input"
+  ]
+}
